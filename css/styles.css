@@ -60,6 +60,37 @@ html {
     scroll-behavior: smooth;
 }
 
+.lang {
+    position:absolute;
+    top: 20px;
+    left: 40px;
+    float:left;
+    background-color:transparent;
+    z-index:1337;
+}
+
+.ba-flag {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.uk-flag {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.ba-flag:hover, .uk-flag:hover {
+    opacity: .5;
+}
+
+.flag-active {
+    border: 2px solid turquoise;
+}
+
 article,
 aside,
 figcaption,
