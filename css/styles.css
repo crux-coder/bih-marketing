@@ -61,7 +61,7 @@ html {
 }
 
 .lang {
-    position:absolute;
+    position:sticky;
     top: 20px;
     left: 40px;
     float:left;
