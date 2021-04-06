@@ -2,6 +2,8 @@ const baFlag = $(".ba-flag");
 const ukFlag = $(".uk-flag");
 
 const translations = {
+    moreEN: "FIND OUT MORE",
+    moreBA: "SAZNAJ VIŠE",
     main_titleEN: "THIS IS BOSNIA!",
     main_titleBA: "OVO JE BOSNA!",
     main_subtitleEN: "Experience more.",
@@ -79,7 +81,8 @@ const switchLocale = (locale) => {
                 "#vjetrenica-title",
                  "#vjetrenica-content",
                   "#main-title",
-                   "#main-subtitle"
+                   "#main-subtitle",
+                    "#more"
                 ].forEach(t => {
                     $(t)[0].innerText = locale === "EN" ? translations[`${t.substring(1).replaceAll("-", "_")}EN`] : translations[`${t.substring(1).replaceAll("-", "_")}BA`]
                 });
