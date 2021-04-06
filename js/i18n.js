@@ -5,7 +5,7 @@ const translations = {
     main_titleEN: "THIS IS BOSNIA!",
     main_titleBA: "OVO JE BOSNA!",
     main_subtitleEN: "Experience more.",
-    main_subtitleBA: "Iskus više.",
+    main_subtitleBA: "Iskusi više.",
     wild_horses_titleEN: "Wild horses in Livno",
     wild_horses_titleBA: "Divlji konji u Livnu",
     wild_horses_contentEN: `You probably didn’t know that apart from Mongolia and Iceland,
